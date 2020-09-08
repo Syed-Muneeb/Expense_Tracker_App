@@ -1,38 +1,183 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+.mar2{
+    margin:0px 0px 0px 0px
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.balance > p{
+
+    font-style: bolder;
+    font-size: 25px;
+}
+.red{
+
+    border-right : 2px solid red
+}
+.cyan{
+
+  border-right : 2px solid cyan
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn:focus,
+.delete-btn:focus {
+  outline: 5px;
+}
+
+.delete-btn {
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.list li:hover .delete-btn {
+  opacity: 1;
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 300px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+/* background-color:#181e5d; */
+body {
+  background-color:#121846; 
+  color:#c5c2c2;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  padding:0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
 }
 
-.App-link {
-  color: #61dafb;
+.head{
+
+    margin-top:2px;
+    margin-bottom: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+
+    width: 350px;
+    margin : 0px auto;
+    margin-top:8px
 }
+span > p {
+
+    padding: 2px;
+}
+
+.mar{
+
+    margin : 0px
+}
+::-webkit-input-placeholder{
+
+      font-size: 12px;
+}
+
+
+.inc-exp-container{
+  background-color:rgba(75, 85, 116, 0.3);
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin : 10px 0px
+
+}
+.inc-exp-container > span{
+
+    flex: 1;
+    text-align: center;
+}
+
+.inc-exp-container > span:first-of-type {
+  border-right: 1px solid #dedede;
+}
+
+.inc{
+
+  color: cyan ;
+}
+
+.exp{
+
+    color : red;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.list li {
+  background-color:rgba(75, 85, 116, 0.3);
+  box-shadow: var(--box-shadow);
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  position: relative;
+  padding: 12px;
+  margin: 5px 0;
+}
+
+
+input {
+
+    margin: 4px 0px 3px 0px;
+    width:100%;
+    background-color:rgba(75, 85, 116, 0.3);
+    border:none;
+    padding : 6px;
+    border-radius : 2px;
+    font-size: 12px;
+    color:white;
+
+
+  }
+
+ 
+  .submit{
+
+        background-color: blue;
+  }
+
+  .borBotttom{
+
+      padding-bottom: 5px;
+      border-bottom: 0.5px solid #d6d6d6;
+      margin: 0px;
+      margin-bottom: 5px;
+  }
+  
+  form{
+
+    margin:0px
+  }
+  .add{
+
+      margin-bottom: 10px;
+      margin-top:-10px;
+  }
