@@ -156,7 +156,8 @@ input {
   .submit{
 
         background-color: blue;
-        padding : 12px
+        padding : 12px;
+        font-size: 16px;
   }
 
   .borBotttom{
