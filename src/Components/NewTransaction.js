@@ -37,7 +37,7 @@ export const NewTransaction = () => {
                     </label> <br/>
 
                     <label> Transaction Amount <br/>
-                     <input type="number" value={amount} required="required"
+                     <input type="number" value={amount} required="required" className="bottom"
                      placeholder="Dollar value of Transaction"
 
                     onChange={ (e)=> { setAmount(e.target.value) }} />

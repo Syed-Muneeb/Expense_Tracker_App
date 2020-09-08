@@ -82,7 +82,7 @@ span > p {
 
 .mar{
 
-    margin : 0px
+    margin : 3px
 }
 ::-webkit-input-placeholder{
 
@@ -139,7 +139,7 @@ span > p {
 
 input {
 
-    margin: 4px 0px 10px 0px;
+    margin: 4px 0px 7px 0px;
     width:100%;
     background-color:rgba(75, 85, 116, 0.3);
     border:none;
@@ -150,7 +150,10 @@ input {
 
   }
 
- 
+ .bottom{
+
+      margin-bottom: 2px;
+ }
   .submit{
 
         background-color: blue;
