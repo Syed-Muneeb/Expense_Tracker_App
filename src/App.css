@@ -13,6 +13,10 @@
     font-style: bolder;
     font-size: 25px;
 }
+.current{
+
+    font-size: 18px;
+}
 .red{
 
     border-right : 2px solid red
@@ -138,7 +142,7 @@ span > p {
 
 input {
 
-    margin: 4px 0px 7px 0px;
+    margin: 4px 0px 9px 0px;
     width:100%;
     background-color:rgba(75, 85, 116, 0.3);
     border:none;
@@ -153,6 +157,7 @@ input {
 
       margin-bottom: 5px;
  }
+
   .submit{
 
         background-color: blue;

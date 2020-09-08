@@ -30,13 +30,13 @@ export const NewTransaction = () => {
                 <h4 className="borBotttom add">Add New Transaction</h4>
 
                 <form onSubmit={onsubmitHandler}>
-                    <label> Description  <br/> 
+                    <label> <strong> Description </strong>  <br/> 
                     <input type="text" value={text} required="required"
                     placeholder="Detail of Transaction"
                     onChange={ (e)=> { setText(e.target.value) }} />
                     </label> <br/>
 
-                    <label> Transaction Amount <br/>
+                    <label> <strong>Transaction Amount </strong> <br/>
                      <input type="number" value={amount} required="required" className="bottom"
                      placeholder="Dollar value of Transaction"
 

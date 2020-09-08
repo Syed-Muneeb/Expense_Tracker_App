@@ -12,7 +12,7 @@ console.log(Balance)
     return (
         <div className="balance">
             <h4 className="mar">Current Balance </h4>
-            <p className="mar2"> $ {Balance} </p>
+            <h2 className="mar2"> $ {Balance} </h2>
         </div>
     )
 }
